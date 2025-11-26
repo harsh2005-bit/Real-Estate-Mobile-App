@@ -56,10 +56,8 @@
     ],
 
     "experiments": {
-        "reactCompiler": false,
-        "typedRoutes": true,
-        "turbo": false,
-        "ephemeralExport": true
+      "typedRoutes": true,
+      "ephemeralExport": true
     }
   }
 }
