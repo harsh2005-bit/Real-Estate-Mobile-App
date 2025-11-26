@@ -1,11 +1,16 @@
 {
-   "start": "expo start",
-  "android": "expo run:android",
-  "ios": "expo run:ios",
-  "web": "expo start --web",
-  "build": "expo export --platform web --useWebpack",
-  "test": "jest --watchAll",
-  "lint": "expo lint"
+  "name": "restate",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "build": "expo export --platform web --useWebpack",
+    "test": "jest --watchAll",
+    "lint": "expo lint"
   },
   "jest": {
     "preset": "jest-expo"
@@ -50,6 +55,5 @@
     "jest-expo": "~52.0.2",
     "react-test-renderer": "18.3.1",
     "typescript": "^5.3.3"
-  },
-  "private": true
+  }
 }
