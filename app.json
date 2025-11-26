@@ -8,9 +8,13 @@
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+
+    "platforms": ["ios", "android", "web"],
+
     "ios": {
       "supportsTablet": true
     },
+
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
@@ -18,11 +22,13 @@
       },
       "package": "com.anonymous.restate"
     },
+
     "web": {
       "bundler": "webpack",
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
+
     "plugins": [
       "expo-router",
       [
@@ -48,6 +54,7 @@
         }
       ]
     ],
+
     "experiments": {
       "typedRoutes": true
     }
